@@ -1,3 +1,5 @@
+# Tools and Methods for Studying Sensitive Subjects with Surveys
+
 The study of public opinion fundamentally depends on honest responses to survey questions. If a survey respondent feels pressured to respond in ways that please the interviewer or protect her own safety, social scientists will not be able to identify the true population distribution of preferences. If that respondent feels great pressure, she may not respond at all, posing an additional challenge to inference. These issues affect our ability to learn about issues from support for insurgent groups to voter turnout.
 
 Three survey question methods -- *list experiments*, *endorsement experiments*, and the *randomized response technique* -- aim to address this problem by obscuring the truthful response of individuals and thus offer privacy protection to respondents that may encourage honest responses and lower non-response rates. Unlike with direct questions, researchers cannot study the responses of individuals, but each technique remains useful for identifying estimates of the *population distribution* of responses.
