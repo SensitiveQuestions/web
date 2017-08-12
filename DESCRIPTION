@@ -5,3 +5,4 @@ Title: Software to Analyze Surveys with Sensitive Questions
 Authors@R: c(person("Graeme", "Blair", email = "graeme.blair@ucla.edu", role = c("aut", "cre")),
              person("Kosuke", "Imai", email = "kimai@princeton.edu", role = c("aut")))
 Description: tmp
+RoxygenNote: 6.0.1
