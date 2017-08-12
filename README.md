@@ -9,8 +9,7 @@ For an overview of these methods, see the [five-page survey](http://graemeblair.
 This page describes each questioning strategy and regression methods and analysis tools designed to most efficiently explore data from list and endorsement experiments. `sensitivequestions.org` describes the three methods and software packages for `R` that aid in the design and analysis of each technique.
 
 
-List experiments
----
+## List experiments
 
 The truthful answer is to a question is obscured from the interviewer by aggregating the answer with the answers to other questions. The respondent is randomly assigned to the control or treatment group and then the following scripts are read:
 
@@ -31,8 +30,7 @@ Resources
 * Methods article in *Political Analysis* (Blair and Imai 2012) describing regression and list experiment diagnostics for several common designs. [pdf](http://pan.oxfordjournals.org/cgi/reprint/mpr048?ijkey=RQ8G4wzSI8vPAEP&keytype=ref)
 * Methods article in *JASA* (Imai 2011) describing regression for the standard list experiment design. [pdf](http://imai.princeton.edu/research/files/list.pdf)
 
-Randomized response
---
+## Randomized response technique
 
 In this method, random noise is introduced to obscure truthful responses by asking respondents to flip a coin or other randomizing device out of view of the enumerator to determine whether they respond to the sensitive question directly or in a way determined by the randomizing device. In some designs, respondents are "forced" to respond to obscure responses, and in others they respond to a separate innocuous question (see example below). The enumerator sees an affirmative or negative response, but does not know whether the response represents the answer to the sensitive question or whether it was caused by the randomizing device. For example, the respondent first flips a coin, and if she receive heads (tails) she assigns herself to the control (treatment) group.
 
@@ -47,8 +45,7 @@ Resources
 * R [`rr` package](http://rr.sensitivequestions.org), documented on this Web site.
 * Methods article in *Journal of the American Statistical Association* (Blair, Imai, and Zhou 2015) describing many randomized response designs, power calculations, and regression methods. [pdf](/papers/randresp.pdf)
 
-Endorsement experiments
---
+## Endorsement experiments
 
 Respondents' true preferences are obscured by soliciting opinions about a policy position that a sensitive actor endorsed. The interviewer cannot disentangle an individual's preferences for the policy from her feelings about the endorser. The respondent is randomly assigned to the control or treatment group and then the following scripts are read:
 
@@ -67,8 +64,6 @@ Resources
 * Application in the *American Political Science Review* (Lyall, Imai, and Blair, 2014). "Explaining Support for Combatants during Wartime: A Survey Experiment in Afghanistan." [pdf](/papers/afghan.pdf)
 * Application in the *American Journal of Political Science* (Blair, Fair, Malhotra, and Shapiro 2013). [pdf](/papers/pakistan.pdf)
 
-Comparing and combining list and endorsement experiments
---
+## Comparing and combining list and endorsement experiments
 
 In a [paper](/papers/listendorse.pdf) in the *American Journal of Political Science* Kosuke Imai and Jason Lyall, we present new graphical and statistical methods for comparing and combining dat  from the two types of experiments with empirical applications from survey in Afghanistan.
-
