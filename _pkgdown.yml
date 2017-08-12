@@ -1,7 +1,7 @@
 navbar:
   type: default
   left:
-  - text: "Packages"
+  - text: "Software Tools"
     menu:
       - text: Endorsement experiments
         href: http://endorse.sensitivequestions.org
