@@ -15,14 +15,13 @@ The truthful answer is to a question is obscured from the interviewer by aggrega
 
 
 > I'm going to read you a list with the names of different groups and individuals on it. After I read the entire list, I'd like you to tell me how many of these groups and individuals you broadly support, meaning that you generally agree with the goals and policies of the group or individual. Please don't tell me which ones you generally agree with; only tell me how many groups or individuals you broadly support.
->
-> |---
-> | *Control Group* | *Treatment group*
-> | Karzai Government | Karzai Government
-> | National Solidarity Program | National Solidarity Program
-> | Local Farmers | Local Farmers
-> |   | **Taliban**
-> |===
+> 
+> | Control Group               | Treatment group              |
+> |-----------------------------+------------------------------|
+> | Karzai Government           | Karzai Government            |
+> | National Solidarity Program | National Solidarity Program  |
+> | Local Farmers               | Local Farmers                |
+> |                             | **Taliban**                  |
 
 Resources
 
@@ -34,11 +33,10 @@ Resources
 
 In this method, random noise is introduced to obscure truthful responses by asking respondents to flip a coin or other randomizing device out of view of the enumerator to determine whether they respond to the sensitive question directly or in a way determined by the randomizing device. In some designs, respondents are "forced" to respond to obscure responses, and in others they respond to a separate innocuous question (see example below). The enumerator sees an affirmative or negative response, but does not know whether the response represents the answer to the sensitive question or whether it was caused by the randomizing device. For example, the respondent first flips a coin, and if she receive heads (tails) she assigns herself to the control (treatment) group.
 
->|---
-> | Control group | Treatment group
-> Did your coin land on heads?  |   Have you ever shoplifted?
->  yes / no | yes / no
->|===
+> | Control Group                | Treatment group              |
+> |------------------------------+------------------------------|
+> | Did your coin land on heads? | Have you ever shoplifted?    |
+> | yes / no                     | yes / no                     |
 
 Resources
 
@@ -49,10 +47,9 @@ Resources
 
 Respondents' true preferences are obscured by soliciting opinions about a policy position that a sensitive actor endorsed. The interviewer cannot disentangle an individual's preferences for the policy from her feelings about the endorser. The respondent is randomly assigned to the control or treatment group and then the following scripts are read:
 
->|---
->| *Control group* | *Treatment group*
-> | A recent proposal calls for the sweeping reform of the Afghan prison system, including the construction of new prisons in every district to help alleviate overcrowding in existing facilities. Though expensive, new programs for inmates would also be offered, and new judges and prosecutors would be trained. How do you feel about this proposal? | A recent proposal **by the Taliban** calls for the sweeping reform of the Afghan prison system, including the construction of new prisons in every district to help alleviate overcrowding in existing facilities. Though expensive, new programs for inmates would also be offered, and new judges and prosecutors would be trained. How do you feel about this proposal?
->|===
+> | Control Group                | Treatment group              |
+> |------------------------------+------------------------------|
+> | A recent proposal calls for the sweeping reform of the Afghan prison system, including the construction of new prisons in every district to help alleviate overcrowding in existing facilities. Though expensive, new programs for inmates would also be offered, and new judges and prosecutors would be trained. How do you feel about this proposal? | A recent proposal **by the Taliban** calls for the sweeping reform of the Afghan prison system, including the construction of new prisons in every district to help alleviate overcrowding in existing facilities. Though expensive, new programs for inmates would also be offered, and new judges and prosecutors would be trained. How do you feel about this proposal? |
 
 Resources
 
